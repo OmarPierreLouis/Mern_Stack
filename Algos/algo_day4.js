@@ -64,7 +64,7 @@ function partition(nums) {
         }
     }
     // code wont run with this console.log below, says line 69 is undefined
-    // console.log("=================")
+    console.log("=================");
     // move start val in right place by putting it at index of count 
     [nums[0], nums[count]] = [nums[count], nums[0]];
     console.log(nums);

@@ -1,29 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
+import Buckets from './components/Buckets';
 
 function App() {
   return (
     <div className="App">
       <h1>Playoff Buckets</h1>
-      <Card 
-      firstName = {"Jason"}
-      lastName = {"Tatum"}
-      age = {24}
-      hairColor = {"Black"}> 
-      </Card>
-      <Card firstName = {"Ja"}
-      lastName = {"Morant"}
-      age = {22}
-      hairColor = {"Black"} > </Card>
-      <Card firstName = {"Devin"}
-      lastName = {"Booker"}
-      age = {25}
-      hairColor = {"Brown"} > </Card>
-      <Card firstName = {"Chris"}
-      lastName = {"Paul"}
-      age = {36}
-      hairColor = {"Scalp"} > </Card>
+      <Buckets firstName ={"Jason"}lastName ={"Tatum"}age ={23} hairColor ={"Black"}> </Buckets> 
+      <Buckets firstName ={"Chris"}lastName ={"Paul"}age ={37} hairColor ={"Scalp"}> </Buckets> 
+      <Buckets firstName ={"Luka"}lastName ={"Dončić"}age ={22} hairColor ={"Black"}></Buckets> 
+      <Buckets firstName ={"Ja"}lastName ={"Morant"}age ={22} hairColor ={"Black"}></Buckets>
     </div>
   );
 }
