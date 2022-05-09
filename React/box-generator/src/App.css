@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.flex-box{
+  display:flex;
+}
+
+.box-plate{
+  border-style: solid;
+  border-width: 1px;
+  width: 250px; 
+  height: 250px;
+}
