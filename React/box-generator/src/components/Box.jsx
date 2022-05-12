@@ -7,15 +7,15 @@ const Box = () => {
     const addBox = (e)=> {
         e.preventDefault();
         let box = {color};
-        console.log("Our Color is ->", box)
-        setAllBoxes([...allBoxes,box])
+        setAllBoxes([...allBoxes,box]);
+        setColor("");
     }
     return (
         < >
             <form onSubmit={addBox}>
                 <div className='form-group mt-5'>
                     <label htmlFor=''></label>
-                    <input onChange={ (e)=>{setColor(e.target.value)}}type="text" className="form-control" placeholder='Enter Color Here' />
+                    <input onChange={ (e)=>{setColor(e.target.value)}}type="text" className="form-control" placeholder='Enter Color Here' value={color} />
                 </div>
                     <button className="btn btn-dark mb-5 mt-5" type="submit">Add Box</button>
             </form>
