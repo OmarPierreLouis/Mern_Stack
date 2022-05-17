@@ -14,7 +14,7 @@ const PokemonWithAxios = () => {
                 // catch is for if there is any issue getting the data..so it doesnt always run?
                 console.log(error)
             })
-    }
+        },
     return (
         <div>
             <button className="mt-3" onClick={getPokemon} >Fetch Pokémon</button>

@@ -59,7 +59,7 @@ function App() {
         </Route>
       </Switch> */}
       <Switch>
-        <Route path="/:word/:color/:color2">
+        <Route exact path="/:word/:color/:color2">
         <Color></Color>
         </Route>
       </Switch>
